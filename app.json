@@ -20,7 +20,13 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
+      "package": "ca.brentvatne.growlerprowler",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCp-BUoX8B8699rkbnb2P2CK4gXSeesVcc"
+        }
+      },
+        "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
