@@ -105,7 +105,7 @@ export const Nav = () => {
           labelStyle: {
             fontSize: 16,
           },
-          activeBackgroundColor: "yellow",
+          activeBackgroundColor: "white",
           inactiveBackgroundColor: "royalblue",
         }}
       >
