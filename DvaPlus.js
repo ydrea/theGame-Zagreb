@@ -1,27 +1,25 @@
 import React, { useState } from "react";
-import { Text, View, TextInput, Pressable } from "react-native";
+import { Button, Text, View, TextInput } from "react-native";
+import styles from "./Styles";
 
 export default function Q2plus({ navigation }) {
   const [name, setName] = useState("");
   return (
-    <View>
-      <Text>WHO?! </Text>
+    <View style={styles.textContainer}>
+      <Text style={styles.textStyle}>
+        Walk to the location marked with #1 on the map. When you arrive, find
+        the monument and enter the first name of the character it represents.{" "}
+      </Text>
       <TextInput
-        placeholder="rijesi"
-        // style={{ borderWidth: 1, width: 200 }}
+        style={styles.textinput}
+        placeholder="August"
         onChangeText={(val) => setName(val)}
       />
-      <Pressable
-        style={{
-          borderWidth: 1,
-          backgroundColor: "blue",
-          fontColor: "white",
-          width: 100,
-        }}
+      <Button
+        title="submit"
         onPress={() => navigation.navigate("A2", { iId: 2, paRam: name })}
-      >
-        <Text>SUBMIT</Text>
-      </Pressable>
+        disabled={name !== "August"}
+      ></Button>
     </View>
   );
 }

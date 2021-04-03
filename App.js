@@ -1,6 +1,6 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
-import Flex from "./Flex";
+import { View } from "react-native";
+import styles from "./Styles";
 import { Nav } from "./Nav";
 
 export default function App() {
@@ -10,12 +10,3 @@ export default function App() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
