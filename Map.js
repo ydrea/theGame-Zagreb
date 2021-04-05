@@ -12,8 +12,8 @@ export default function Map() {
         provider={MapView.PROVIDER_GOOGLE}
         showsUserLocation
         initialRegion={{
-          latitude: 45.805,
-          longitude: 15.9819,
+          latitude: 45.8015,
+          longitude: 15.981,
           latitudeDelta: 0.026,
           longitudeDelta: 0.0021,
         }}
