@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Platform, Text, View, StyleSheet } from "react-native";
 import * as Location from "expo-location";
 
-export default function App() {
+export default function LocationMark() {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
 
@@ -19,16 +19,23 @@ export default function App() {
     })();
   }, []);
 
-  let text = "Waiting..";
+  let Mark = "Waiting..";
   if (errorMsg) {
-    text = errorMsg;
+    Mark = errorMsg;
   } else if (location) {
-    text = JSON.stringify(location);
+    Mark = JSON.stringify(location);
+    console.log(location);
   }
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.paragraph}>{text}</Text>
+    <View
+    // style={styles.container}
+    >
+      <Text
+      //   style={styles.paragraph}
+      >
+        {Mark}
+      </Text>
     </View>
   );
 }

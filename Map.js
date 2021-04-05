@@ -2,7 +2,7 @@ import React from "react";
 import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import { View } from "react-native";
 import styles from "./Styles";
-import Geolocation from "react-native-geolocation-service";
+import LocationMark from "./Location";
 
 export default function Map() {
   return (
@@ -12,7 +12,7 @@ export default function Map() {
         provider={MapView.PROVIDER_GOOGLE}
         showsUserLocation
         initialRegion={{
-          latitude: 45.815,
+          latitude: 45.805,
           longitude: 15.9819,
           latitudeDelta: 0.026,
           longitudeDelta: 0.0021,
