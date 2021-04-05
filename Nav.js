@@ -13,7 +13,11 @@ import styles from "./Styles";
 function HomeScreen({ navigation }) {
   return (
     <View style={styles.textContainer}>
-      <Text style={styles.textStyle}>...Zagreb</Text>
+      <Text style={styles.textStyle}>
+        'This is a demo of "the Game @ &#123;City&#125; - a geolocation and
+        text-based adventure for tourists. The demo is located in the city of
+        Zagreb, Croatia.'{" "}
+      </Text>
       <Button
         style={styles.button}
         title="START"

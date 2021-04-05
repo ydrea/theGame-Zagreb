@@ -1,10 +1,12 @@
 import React from "react";
 import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
-import { StyleSheet, View, Dimensions } from "react-native";
+import { View } from "react-native";
+import styles from "./Styles";
+import Geolocation from "react-native-geolocation-service";
 
 export default function Map() {
   return (
-    <View style={styles.container}>
+    <View style={styles.containerMap}>
       <MapView
         style={styles.map}
         provider={MapView.PROVIDER_GOOGLE}
@@ -44,16 +46,3 @@ export default function Map() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 0,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  map: {
-    width: Dimensions.get("window").width,
-    height: Dimensions.get("window").height,
-  },
-});
