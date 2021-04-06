@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Button, Text, View, TextInput } from "react-native";
-import styles from "./Styles";
+import styles from "../Styles";
 
-export default function Q2({ navigation }) {
+export default function Q2plus({ navigation }) {
   const [name, setName] = useState("");
   return (
     <View style={styles.textContainer}>
@@ -12,19 +12,13 @@ export default function Q2({ navigation }) {
       </Text>
       <TextInput
         style={styles.textinput}
+        placeholder="August"
         onChangeText={(val) => setName(val)}
       />
       <Button
-        style={styles.button}
         title="submit"
         onPress={() => navigation.navigate("A2", { iId: 2, paRam: name })}
         disabled={name !== "August"}
-      ></Button>
-
-      <Button
-        style={styles.button}
-        title="help"
-        onPress={() => navigation.navigate("Q2plus", { iId: 2, paRam: name })}
       ></Button>
     </View>
   );

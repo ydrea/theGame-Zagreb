@@ -8,7 +8,7 @@ import Map from "./Map";
 import Q2 from "./Dva";
 import Q2plus from "./DvaPlus";
 import A2 from "./Dodva";
-import styles from "./Styles";
+import styles from "../Styles";
 
 function HomeScreen({ navigation }) {
   return (

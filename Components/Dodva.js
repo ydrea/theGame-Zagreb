@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Text, View } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
-import styles from "./Styles";
+import styles from "../Styles";
 // import Q2 from "./Dva";
 
 export default function Answer_no_2({ route, navigation }) {

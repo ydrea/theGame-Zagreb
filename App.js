@@ -1,7 +1,7 @@
 import React from "react";
 import { View } from "react-native";
 import styles from "./Styles";
-import { Nav } from "./Nav";
+import { Nav } from "./Components/Nav";
 // import LocationMark from "./Location";
 
 export default function App() {
