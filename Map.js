@@ -2,7 +2,7 @@ import React from "react";
 import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import { View } from "react-native";
 import styles from "./Styles";
-import LocationMark from "./Location";
+// import LocationMark from "./Location";
 
 export default function Map() {
   return (
@@ -14,7 +14,7 @@ export default function Map() {
         initialRegion={{
           latitude: 45.8015,
           longitude: 15.981,
-          latitudeDelta: 0.026,
+          latitudeDelta: 0.126,
           longitudeDelta: 0.0021,
         }}
       >

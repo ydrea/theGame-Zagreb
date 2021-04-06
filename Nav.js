@@ -63,8 +63,8 @@ function A1({ route, navigation }) {
   return (
     <View style={styles.textContainer}>
       <Text style={styles.textStyle}>
-        OK, {JSON.stringify(paRam)}. When you are ready to start your mission,
-        clik the button below...
+        OK, {paRam}. When you are ready to start your mission, clik the button
+        below...
       </Text>
 
       <Button
