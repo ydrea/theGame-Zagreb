@@ -114,6 +114,7 @@ export const Nav = () => {
         tabBarOptions={{
           activeTintColor: "#2196F3",
           inactiveTintColor: "white",
+          style: { position: "absolute" },
           labelStyle: {
             fontSize: 16,
           },
@@ -121,8 +122,8 @@ export const Nav = () => {
           inactiveBackgroundColor: "#2196F3",
         }}
       >
-        <Tab.Screen name="Game    " component={HomeStackScreen} />
-        <Tab.Screen name="Map     " component={SettingsStackScreen} />
+        <Tab.Screen name="Game" component={HomeStackScreen} />
+        <Tab.Screen name="Map" component={SettingsStackScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
