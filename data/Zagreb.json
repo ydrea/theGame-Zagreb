@@ -1,0 +1,36 @@
+[
+    {
+      "coordinate": { "latitude": 45.815, "longitude": 15.9819 },
+      "title": "Senoa",
+      "description": "this is a Senoa",
+      "image": "../assets/ping_1.png"
+    },
+    {      
+        "coordinate": { "latitude": 45.8145, "longitude": 15.9816 },
+        "title": "Matos",
+        "description": "this is a Matos",
+        "image": "../assets/ping_2.png"},
+    {
+        "coordinate": { "latitude": 45.814, "longitude": 15.9813 },
+        "title": "Ujevic",
+        "description": "this is a Ujevic",
+        "image": "../assets/ping_3.png"
+    }, 
+    {
+        "coordinate": { "latitude": 45.8135, "longitude": 15.981 },
+        "title": "Martic",
+        "description": "this is a Martic",
+        "image": "../assets/ping_1.png"
+      },
+      {        
+          "coordinate": { "latitude": 45.8125, "longitude": 15.9797 },
+          "title": "MEDO",
+          "description": "this is a MEDO",
+          "image": "../assets/ping_2.png"},
+      {
+          "coordinate": { "latitude": 45.812, "longitude": 15.9794 },
+          "title": "Strossmayer",
+          "description": "this is a Strossmayer",
+          "image": "../assets/ping_3.png"
+      }
+  ]
