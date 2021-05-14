@@ -20,12 +20,7 @@
         "coordinate": { "latitude": 45.8135, "longitude": 15.981 },
         "title": "Martic",
         "description": "this is a Martic",
-        "image": "../assets/ping_1.png"
-      },
-      {        
-          "coordinate": { "latitude": 45.8125, "longitude": 15.9797 },
-          "title": "MEDO",
-          "description": "this is a MEDO",
-          "image": "../assets/ping_2.png"}
-     
+        "image": "../assets/ping_4.png"
+      }
+    
   ]
