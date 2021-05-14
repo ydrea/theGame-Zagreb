@@ -26,11 +26,6 @@
           "coordinate": { "latitude": 45.8125, "longitude": 15.9797 },
           "title": "MEDO",
           "description": "this is a MEDO",
-          "image": "../assets/ping_2.png"},
-      {
-          "coordinate": { "latitude": 45.812, "longitude": 15.9794 },
-          "title": "Strossmayer",
-          "description": "this is a Strossmayer",
-          "image": "../assets/ping_3.png"
-      }
+          "image": "../assets/ping_2.png"}
+     
   ]
